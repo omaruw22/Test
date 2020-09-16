@@ -1,0 +1,56 @@
+
+
+cd Desktop/
+ mkdir Story
+ cd Story
+ touch chapter1.txt
+ open chapter1.txt
+ Ls -a.  //to see every think inside the folders
+git status
+git add chapterl.txt
+
+git commit -m "complete chapter 2 and 3"
+Git log
+git diff chapter2.txt
+ git checkout chapter2.txt
+Git add .
+touch .gitignore / .gitignore this file well be hide
+
+git rm --cached -r .
+
+git commit -m "Initial Commit"
+
+cd ~
+cd Desktop/Test/
+touch .gitignore
+gitHub:
+
+omars-iMac:Project omar$ git init
+Initialized empty Git repository in /Users/omar/Desktop/Project/.git/
+
+git add// to add all from this daistry
+
+git remote add origin https://github.com/omaruw22/Story.git
+
+git push -u origin master
+
+
+
+
+
+
+
+
+or create a new repository on the command line
+ echo "# Story" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/omaruw22/Story.git
+git push -u origin master
+
+or push an existing repository from the command line
+ git remote add origin https://github.com/omaruw22/Story.git
+git push -u origin master
+                
+
